@@ -1,0 +1,40 @@
+.nav {
+  width: 100%;
+  padding: 0 20px;
+  background-color: yellow;
+  color: rgb(15, 15, 15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  }
+  
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .right {
+      display: flex;
+      gap: 25px;
+      padding:0 0.5;
+    }
+    li {
+      font-size: 16px;
+      font-weight: 1200px;
+      text-transform: capitalize;
+      cursor: pointer;
+      letter-spacing: 2px;
+      list-style-type: none;
+    }
+    span {
+      font-size: 35px;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      text-align: justify;
+      letter-spacing: 3px;
+      color:color-mix(in srgb, blue 70%, black 30%);
+    }
+    
