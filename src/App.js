@@ -6,7 +6,10 @@ import Home from "./components/Home/Home";
 import { About } from "./components/About/About";
 import { Admission } from "./components/Admissions/Admission";
 import Contact from "./components/Contact/Contact";
+import ImageSlider from "./components/slider/slider";
+
 function App() {
+  const images = ["./assets/image1.jpg", "./assets/image2.jpg"];
   return (
     <BrowserRouter>
       <Navbar />
@@ -16,6 +19,7 @@ function App() {
         <Route path="admission" element={<Admission />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <ImageSlider images={images} />
     </BrowserRouter>
   );
 }
